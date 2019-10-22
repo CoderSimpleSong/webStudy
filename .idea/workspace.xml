@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="887c2df3-de49-446f-8394-2cd30526ba1c" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/01-web基础/01.认识HTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web基础/02.head内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-web基础/03.html常用标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-HTML基础元素/01-复习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-HTML基础元素/02.HTML常用标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-HTML基础元素/03.文本格式标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-HTML基础元素/04.语义化标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-HTML基础元素/05.实体字符或特殊字符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-HTML基础元素/06.列表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-HTML基础元素/07.自定义列表.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-HTML基础元素/08.表格.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-HTML基础元素/09.合并单元格.html" afterDir="false" />
-    </list>
+    <list default="true" id="887c2df3-de49-446f-8394-2cd30526ba1c" name="默认更改列表" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -65,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02-HTML基础元素/09.合并单元格.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="110">
+              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -102,9 +89,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="669" />
-    <option name="y" value="96" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="649" />
+    <option name="y" value="23" />
     <option name="width" value="1052" />
     <option name="height" value="749" />
   </component>
@@ -142,6 +129,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -184,15 +172,15 @@
       <workItem from="1571660181036" duration="3217000" />
       <workItem from="1571665894428" duration="2627000" />
       <workItem from="1571704164575" duration="7971000" />
-      <workItem from="1571751056214" duration="2251000" />
+      <workItem from="1571751056214" duration="2591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23975000" />
+    <option name="totallyTimeSpent" value="24315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="669" y="96" width="1052" height="749" extended-state="0" />
+    <frame x="773" y="23" width="1052" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4015519" />
@@ -310,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/02-HTML基础元素/09.合并单元格.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="110">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
         </state>
       </provider>
     </entry>

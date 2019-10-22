@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表</title>
+</head>
+<body>
+
+<!--
+
+1.无序列表
+unorderList  ul
+<ul></ul>
+
+<ul><li>的属性type 拥有的选项
+disc 默认实心圆
+circle 空心圆
+square 小方块
+none 不显示
+
+注: <ul><li> 都有type属性
+
+
+<ul><li> 都是块级元素
+
+快捷键: ul>li*4 + tab   !!!!!!!!!
+
+2.有序列表  了解, 一般用到的都是有序的
+orderList  ol
+
+start 属性 默认值为1  取值为数字
+
+reversed 属性 倒叙   值 也是 reversed
+
+当属性名等于属性值时, 属性值可以省略   !!!!!!!!!
+
+
+
+
+-->
+
+<!--无序可选的四种样式-->
+<ul>
+    <li type="disc">第一项</li>
+    <li type="circle">第二项</li>
+    <li type="square">第三项</li>
+    <li type="none">第四项</li>
+</ul>
+
+
+<!--默认样式-->
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+</ul>
+
+
+<!--li嵌套p-->
+<ul>
+    <li>
+        <p>1</p>
+    </li>
+    <li>
+        <p>2</p>
+    </li>
+    <li>
+        <p>3</p>
+    </li>
+    <li>
+        <p>4</p>
+    </li>
+</ul>
+
+
+<!--li嵌套ul-->
+<ul>
+    <li>
+        山东
+        <ul>
+            <li>济南</li>
+            <li>青岛</li>
+            <li>烟台</li>
+        </ul>
+    </li>
+    <li>
+        浙江
+        <ul>
+            <li>杭州</li>
+            <li>金华</li>
+            <li>xxx</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li><a href="https://www.baidu.com" target="_blank">百度</a></li>
+    <li><a href="https://www.baidu.com">百度</a></li>
+    <li><a href="https://www.baidu.com">百度</a></li>
+    <li><a href="https://www.baidu.com">百度</a></li>
+</ul>
+
+
+<ol type="i" start="8" reversed>
+    <li>
+        <p>oooo</p>
+    </li>
+    <li>
+        <p>ooooo</p>
+    </li>
+    <li>
+        <p>oooo</p>
+    </li>
+    <li>
+        <p>oooo</p>
+    </li>
+</ol>
+
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>09.合并单元格</title>
+</head>
+<body>
+
+<!--
+合并单元格
+
+水平合并  colspan
+垂直合并  rowspan
+
+-->
+
+<table border="1" width="600" height="600" cellspacing="1" align="center">
+    <tr align="center">
+        <td colspan="2">单元格内容</td>
+        <td rowspan="2">单元格内容</td>
+    </tr>
+    <tr align="center">
+        <td rowspan="2">单元格内容</td>
+        <td>单元格内容</td>
+    </tr>
+    <tr align="center">
+        <td colspan="3">单元格内容</td>
+    </tr>
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<table border="1" width="600" height="600" cellspacing="1" align="center">
+    <tr align="center">
+        <td rowspan="2"></td>
+        <td colspan="2"></td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td rowspan="2"></td>
+    </tr>
+    <tr align="center">
+        <td colspan="2"></td>
+    </tr>
+</table>
+
+</body>
+</html>

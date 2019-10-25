@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>04-表单</title>
+</head>
+<body>
+<!--
+表单:
+作用:采集数据,可以提交数据到服务器.
+
+属性
+action 请求的地址
+method  请求方式(post get) 默认get 一般都是post
+name 表单的名称 (登录的/注册的)
+
+表单域
+标签:<input type="">  行内元素  输入框
+
+type属性:输入框的类型
+text:输入框
+passwork:密码输入框
+radio: 单选框   同一组单选框的所有选项中 name要相同
+checkbox: 复选框
+submit:提交按钮
+reset:重置按钮, 取消按钮
+button:普通按钮
+image: 图片按钮, 默认是提交功能
+
+name属性:输入框的名称
+
+value属性:当前值
+
+
+button 标签  默认是提交功能
+-->
+
+<!--
+<form action="请求地址url" method="post" name="表单名称">-->
+
+<!--</form>
+-->
+
+<form name="myForm" method="get" action="https://www.cttcn.com">
+    姓名: <input type="text" name="userName" value="123" placeholder="手机号">
+    <br>
+    <br>
+    密码: <input type="password" name="pwd" value="666">
+    <br>
+    <br>
+    性别:  男<input type="radio" name="sex" checked> 女 <input type="radio" name="sex">
+    <br>
+    <br>
+    爱好: <input type="checkbox" checked>吃 <input type="checkbox" checked>喝 <input type="checkbox">睡觉 <input type="checkbox" checked>看球
+    <br>
+    <br>
+    <input type="submit" value="按钮名称">
+    <br>
+    <br>
+    <input type="reset" value="取消">
+    <br>
+    <br>
+    <input type="button" value="普通按钮(不能提交也不能重置)">
+    <br>
+    <br>
+    <button type="reset"></button>
+    <br>
+    <br>
+    <button type="button"></button>
+    <br>
+    <br>
+    <button type="submit"></button>
+    <br>
+    <br>
+    <input type="image" src="../../images/logo.png">
+</form>
+
+</body>
+</html>

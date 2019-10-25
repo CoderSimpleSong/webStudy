@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>09-练习2</title>
+    <style>
+        td{
+            height: 30px;
+            box-sizing: border-box;
+            padding: 0 0 0 0;
+            text-align: center;
+        }
+        button{
+            width: 65px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+       <form action="" method="post">
+           <fieldset>
+               <legend>Welcome me Login</legend>
+               <table border="3" width="600" height="300" align="center" cellspacing="0">
+                   <tr>
+                       <td width="100">姓名:</td>
+                       <td width="500">
+                           <input type="text" required>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>密码:</td>
+                       <td>
+                           <input type="password" required maxlength="6">
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>确认密码:</td>
+                       <td>
+                           <input type="password" required maxlength="6">
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>性别:</td>
+                       <td>
+                           <input type="radio" id="man" checked>
+                           <label for="man">男</label>
+                           <input type="radio" id="woman">
+                           <label for="woman">女</label>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>爱好:</td>
+                       <td>
+                           <input type="checkbox" checked id="eat">
+                           <label for="eat">吃</label>
+                           <input type="checkbox" id="sleep">
+                           <label for="sleep">睡</label>
+                           <input type="checkbox" id="study">
+                           <label for="study">学习</label>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td>城市:</td>
+                       <td>
+                           <select name="">
+                               <option value="" hidden selected>请选择</option>
+                               <option value="jn">济南</option>
+                               <option value="hz">杭州</option>
+                           </select>
+                       </td>
+                   </tr>
+                   <tr height="90">
+                       <td>自我介绍:</td>
+                       <td>
+                           <textarea name="123" id="" cols="20" rows="3" placeholder="属于你个人的介绍,请填写."></textarea>
+                       </td>
+                   </tr>
+                       <td colspan="2">
+<!--                           这里的空格加的很无敌-->
+                           <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                           <button type="submit">立即注册</button>
+                       </td>
+                   </tr>
+
+               </table>
+           </fieldset>
+       </form>
+
+
+</body>
+</html>

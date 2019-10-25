@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05-表单2</title>
+</head>
+<body>
+
+<!--
+1.表单上传文件
+
+input type属性
+file:上传文件
+hidden: 隐藏, 不会在网页中显示, 也不会占位.  用途:不在网页中显示,但是可以正常上传
+
+2.下拉列表标签
+<select>
+属性:
+name 下拉列表的名字
+size 规定下拉列表中可见选项的数目(显示几行)
+multiple 多选
+disabled  禁用
+
+<option>标签  每一个选项
+
+属性: selected 默认被选中
+
+<optgroup> 将option分组
+
+3.多行文本框
+<textarea>
+
+属性
+cols: 文字区块的宽度
+rows: 文字区块的列数->高度
+
+4.label标签
+
+<label></label>
+label是input的描述，它本身不会有特殊效果，但它和其它input标签使用可以提升用户的使用体验，用户不用非得点击到按钮，而是点击文字即可选中，如“记住密码”
+
+	  <label for="pwd">记住密码</label>
+<input type="checkbox" name="pwd" id="pwd" />
+
+*通过label的for指向按钮的id来绑定，for和id属性的值要相同
+
+5.fieldset标签  元素集 块级元素
+配合legend标签一起使用  行内元素
+
+
+6.表单中的另外两个属性
+
+禁用跟只读
+
+disabled
+readonly 给text加
+
+-->
+
+<form action="上传的url" method="post" enctype="multipart/form-data">
+    <br>
+    <br>
+    文件: <input type="file" name="选择图片">
+    <br>
+    <br>
+    隐藏: <input type="hidden">
+    <br>
+    <br>
+
+    下拉列表:
+    <select name="city" id="" multiple size="1" disabled>
+        <option value="jn">济南</option>
+        <option value="ly" >临沂</option>
+        <option value="qd">青岛</option>
+        <option value="yt">烟台</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    选择省份:
+    <select name="" >
+        <optgroup label="山东省">
+            <option value="">济南市</option>
+            <option value="">青岛市</option>
+            <option value="">东营市</option>
+        </optgroup>
+        <optgroup label="浙江省">
+            <option value="">杭州市</option>
+            <option value="">金华市</option>
+            <option value="">丽水市</option>
+        </optgroup>
+    </select>
+    <br>
+    <br>
+    <textarea name=""  cols="30" rows="10" placeholder="text">
+    </textarea>
+    <br>
+    <br>
+    性别:
+    <input type="radio" name="sex" checked id="nan">
+    <label for="nan">男</label>
+    <input type="radio" name="sex" id="nv">
+    <label for="nv">女</label>
+
+    <br>
+    <br>
+
+    爱好:
+    <input type="checkbox" checked id="chi"><label for="chi">吃</label>
+    <input type="checkbox">吃
+    <input type="checkbox">吃
+    <input type="checkbox">吃
+
+
+    <br>
+    <br>
+    
+    <fieldset>
+        <legend>健康信息</legend>
+        身高: <input type="text">
+        体重: <input type="text">
+    </fieldset>
+
+</form>
+
+
+</body>
+</html>

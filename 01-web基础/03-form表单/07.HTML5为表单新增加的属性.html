@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>07-HTML5为表单新增加的属性</title>
+</head>
+<body>
+<!--
+
+1.placehould
+
+
+2.multiple
+作用：支持在一个域中输入多个值，逗号隔开，一般配合邮箱和URL使用
+
+
+3.autofocus
+作用：自动获取焦点
+
+
+4.required
+必填
+
+5minlength和 maxlength
+作用：定制元素允许的最小字符数和最大字符数
+语法：<input type="text" minlength="6" maxlength="18"/>
+
+6.min和max
+作用：定制元素允许的最小数字和最大数字
+语法：<input type="number" min=”0” max=”100”/>
+
+-->
+
+<form action="" method="post">
+
+    <br>
+    <br>
+
+    <input type="text" placeholder="请输入您的用户名" name="userName" required autofocus>
+    <br>
+    <br>
+    <input type="password" placeholder="请输入您的密码" name="pwd" required>
+    <br>
+    <br>
+    <input type="email" required>
+    <br>
+    <br>
+    <input type="password" maxlength="8">
+
+    <input type="submit">
+
+
+
+
+</form>
+
+
+
+
+</body>
+</html>

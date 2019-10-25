@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>08-练习01</title>
+    <style>
+        div{
+            background-color: white;
+            width: 100%;
+        }
+        span{
+            display: inline-block;
+            width: 160px;
+            text-align: right;
+        }
+        form{
+            width: 430px;
+            margin:auto;
+        }
+        .vv{
+            vertical-align: top;
+        }
+
+    </style>
+</head>
+<body>
+
+<br>
+<br>
+<br>
+
+            <div  class="div">
+                    <form action="https://wwww/cttcn.com" method="post" enctype="multipart/form-data">
+                        <p>
+                            <span>姓名:</span>
+                            <input type="text" placeholder="请输入姓名" required value="123">
+                        </p>
+                        <p>
+                            <span>密码:</span>
+                            <input type="password" placeholder="请输入密码" required>
+                        </p>
+                        <p>
+                            <span>确认密码:</span>
+                            <input type="password" placeholder="请确认密码" required>
+                        </p>
+                        <p>
+                            <span>密码提示问题:</span>
+                            <select name="request" id="pwd" required>
+                            <option selected hidden>请选择一个问题</option>
+                            <option value="shui?">你是谁?</option>
+                            <option value="who?">who are you?</option>
+
+                        </select>
+                        </p>
+                        <p>
+                            <span>密码提示答案: </span>
+                            <input type="search">
+                        </p>
+                        <p>
+                            <span>性别:</span>
+                            <input type="radio" name="sex" id="man" checked>
+                            <label for="man">男</label>
+
+                            <input type="radio" name="sex" id="woMan">
+                            <label for="woMan">女</label>
+                        </p>
+                        <p>
+                            <span>年龄:</span>
+                            <input type="number" min="1" maxlength="3" required>
+                        </p>
+                        <p>
+                            <span>籍贯:</span>
+                            <select name="provice"  required>
+                            <option selected hidden>请选择</option>
+                            <option value="sd">山东</option>
+                            <option value="zj">浙江</option>
+                        </select>省/直辖市
+                            <select name="city" required>
+                                <option selected hidden>请选择</option>
+                                <option value="jn">济南</option>
+                                <option value="qd">青岛</option>
+                            </select>
+                        </p>
+                        <p>
+                            <span>爱好:</span>
+                            <input type="checkbox" id="intnet" checked>
+                            <label for="intnet">上网</label>
+                            <input type="checkbox" id="sport">
+                            <label for="sport">体育</label>
+                            <input type="checkbox" id="study">
+                            <label for="study">学习</label>
+                        </p>
+                        <p>
+                            <span class="vv">个人介绍:</span>
+                            <textarea name="abc" id="" cols="30" rows="10" placeholder="占位文字"></textarea>
+                        </p>
+                        <p>
+                            <span>上传头像:</span>
+                            <input type="file">
+                        </p>
+                        <span></span>
+                        <input type="submit" value="提交">
+                        <input type="reset" value="重置">
+                    </form>
+
+            </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
